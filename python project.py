@@ -37,11 +37,7 @@ class Bill_App:
         self.Food_tax=StringVar()
         self.Snack_tax=StringVar()
         self.Beverages_tax=StringVar()
-        #=============Customer Detail================
-        
-        #=============Customer Detail================
-          
-        
+ 
         #=============Cosmetics Frame================
         F2=LabelFrame(self.root,bd=10,relief=GROOVE,text="Food",font=("times new roman",15,"bold"),fg="gold",bg=bg_color)
         F2.place(x=3,y=75,width=200,height=280)
